@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1,h2 {font-size:24px; color:#333; text-shadow:0px 1px 2px rgba(0,0,0,.1);}
+h3 {color:#333;}
+
+.clear {clear:both;}
+
+.nav>li>a {padding:15px 34px;}
+a:link , a:visited {}
+a:hover {color:#F00;}
+
+body {font-family: 'Prompt', sans-serif; color:#333;}
+
+.div_height {height:20px;}
+
+.bg-nav {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+50,ededed+51,ffffff+100;White+Gloss+%232 */
+
+background: #ffffff; /* Old browsers */
+
+background: -moz-linear-gradient(top,  #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to bottom,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+border-radius:0;
+
+}
+
+.button ,.button2 ,.button3  , .button4 {background-color:#005496; border-radius:10px; border-bottom:5px solid #004887; text-align:center; color:#fff; padding:5px; margin-bottom:10px;}
+
+.button2 {background-color:#666; border-bottom:5px solid #333;}
+.button3 {background-color:#fff; border-bottom:5px solid #CCC; color:#005496}
+.button4 {background-color:#F00; border-bottom:5px solid #900;}
+
+.navbar {margin-bottom:0px;}
+
+.navbar-toggle .icon-bar {background-color:#333;}
+
+.qrcode {padding-top:20px;}
+
+.bg-footer {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+47,ededed+100;White+3D+%231 */
+
+background: #ffffff; /* Old browsers */
+
+background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+
+}
+
+.bg-button {background-color:#005395; border:none; float:right;color:#fff;}
+
+.fonticon36 {font-size:24px; color:red;}
+.font-yellow {color:#FF0;}
+
+.img-overflow {overflow:hidden; height:160px;}
+
+
+.scale-move {transition-delay:0.3s; transition-duration:0.3s; transition-property:all;}
+.scale-move:hover {transform:translateY(-10px);}
+.container {
+  width: 940px;
+}
